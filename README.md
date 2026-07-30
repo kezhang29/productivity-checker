@@ -1,4 +1,4 @@
-# classroom-focus
+# productivity-checker
 
 This project uses a model trained in ```jetson-inference``` to measure productivity levels when I'm working. Since I get distracted very easily when I should be doing work, I thought this project would be both a great learning experience and a way to solve a real world problem that I encounter on a daily basis.
 
