@@ -51,7 +51,9 @@ Run the project:
 
 ## Next Steps
 - The validation set resembles the training set too much, causing the steep jump in validation accuracy shown in tensorboard. Retraining with a more diverse dataset would improve model results.
-- Add more labels 
+- The dataset also has a bias toward the label looking_at_phone because there are more images of that included in the dataset. Increasing the number of images in other classes would help with this problem.
+- Add more labels for a broader range of predictions
+
 
 
 
