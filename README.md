@@ -6,9 +6,9 @@ This project uses a model trained in ```jetson-inference``` to measure productiv
 
 This project uses a resnet-18 model which was trained on 3 classes, sleeping, looking at phone, and working. The dataset used a custom script located in ```script.py``` that takes multiple pictures on a camera feed, and saves them into a specified directory. The model is trained on this data and productivity levels are measured based on the confidence of the model's inference.
 
-<img width="472" height="370" alt="Screenshot from 2026-07-29 16-42-38" src="https://github.com/user-attachments/assets/59401dc3-1bd0-44fa-89b8-9af5344e9777" />
-<img width="472" height="370" alt="Screenshot from 2026-07-29 16-42-10" src="https://github.com/user-attachments/assets/31635a3b-f146-4ab3-b3ed-8e6dfa5e40e7" />
-<img width="472" height="370" alt="Screenshot from 2026-07-29 16-42-26" src="https://github.com/user-attachments/assets/73f6e8cf-4fc1-4025-bbe9-2960a9c32253" />
+<img width="393" height="308" alt="Screenshot from 2026-07-29 16-42-38" src="https://github.com/user-attachments/assets/59401dc3-1bd0-44fa-89b8-9af5344e9777" />
+<img width="393" height="308" alt="Screenshot from 2026-07-29 16-42-10" src="https://github.com/user-attachments/assets/31635a3b-f146-4ab3-b3ed-8e6dfa5e40e7" />
+<img width="393" height="308" alt="Screenshot from 2026-07-29 16-42-26" src="https://github.com/user-attachments/assets/73f6e8cf-4fc1-4025-bbe9-2960a9c32253" />
 
 
 ## Classification Model 
