@@ -45,6 +45,10 @@ Clone the repository:
 Run the project:
 ```python3 model.py```
 
+## Video Demonstration
+
+[https://drive.google.com/drive/folders/1uqQTJoC8pheT3QXdLASYytw_R9MTS6oS?usp=drive_link](https://drive.google.com/drive/folders/1uqQTJoC8pheT3QXdLASYytw_R9MTS6oS?usp=drive_link)
+
 ## Next Steps
 - The validation set resembles the training set too much, causing the steep jump in validation accuracy shown in tensorboard. Retraining with a more diverse dataset would improve model results.
 - Add more labels 
