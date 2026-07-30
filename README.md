@@ -23,7 +23,21 @@ This project uses a resnet-18 model which was trained on 3 classes, sleeping, lo
 
 ## Set up
 
-Train the model inside ```jetson-inference```.
+1. SSH into orin  
+2. Install necessary packages  
+```sudo apt-get update```  
+```sudo apt-get install -y git cmake build-essential libpython3-dev python3-pip python3-numpy```
+3. Clone jetson-inference  
+```git clone --recursive --depth=1 https://github.com/dusty-nv/jetson-inference```
+4. Update submodules  
+```git submodule update --init --recursive```
+5. Remove npymath because of a compatibility issue  
+```sed -i 's/ npymath//g' python/bindings/CMakeLists.txt```  
+```sed -i 's/ npymath//g' utils/python/bindings/CMakeLists.txt```
+6. Install cmake  
+```mkdir build```  
+```cd build```  
+```cmake ../```
 
 Clone the repository:
 ```git clone git@github.com:kezhang29/productivity-checkers.git```
@@ -33,7 +47,7 @@ Run the project:
 
 ## Next Steps
 - The validation set resembles the training set too much, causing the steep jump in validation accuracy shown in tensorboard. Retraining with a more diverse dataset would improve model results.
-- Add more labels
+- Add more labels 
 
 
 
